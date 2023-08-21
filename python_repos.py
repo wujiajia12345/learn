@@ -7,13 +7,14 @@ r = requests.get(URL)
 print('Status code: ', r.status_code)
 
 response_dict = r.json()
-print("Total repositories: ", response_dict['items'])
+print("Total repositories: ", response_d
 
-repo_dicts = response_dict['items']
+
 
 names, stars = [], []
 for repo_dict in repo_dicts:
-    names.append(repo_dict['name'])
+    names.append(repo_dict['name'])uuuuuuu
     stars.append(repo_dict['stargazers_count'])
+
 
 
