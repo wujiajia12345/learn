@@ -24,4 +24,6 @@ chart.x_labels = names
 chart.add('', stars)
 chart.render_to_file('python_repos.svg')
 
+print("hello world")
+
 
